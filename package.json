@@ -1,0 +1,30 @@
+{
+    "name": "todo-list-app",
+    "version": "1.0.0",
+    "description": "Blockchain Todo List using Ethereum",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "dev": "lite-server",
+        "test": "echo \"Error: no test specified\" && sexit 1"
+    },
+    "author": "Zeeshan Iqbal",
+    "license": "ISC",
+    "devDependencies": {
+        "bootstrap": "^4.6.2",
+        "chai": "^4.1.2",
+        "chai-as-promised": "^7.1.1",
+        "chai-bignumber": "^2.0.2",
+        "lite-server": "^2.3.0",
+        "nodemon": "^2.0.19",
+        "truffle": "^5.1.65",
+        "truffle-contract": "^3.0.8"
+    },
+    "dependencies": {
+        "@truffle/contract": "^4.5.20",
+        "ethereumjs-testrpc": "^6.0.3",
+        "web3": "^0.20.1"
+    }
+}
